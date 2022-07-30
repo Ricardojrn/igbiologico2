@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.fonte {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 1.1em;
+}
 body, html {
     background: #A5C9CA url(../imagens/planodefundo.png) repeat-y;
     height: 100%;
@@ -48,6 +52,14 @@ ul {
     line-height: 2.1em;
     border: 1px solid #355764;
 }
+body.home #menu-principal li#home,
+body.atividades #menu-principal li#atividades,
+body.aulas #menu-principal li#aulas,
+body.sobre #menu-principal li#sobre {
+    background-color: #A5C9CA;
+    line-height: 2.1em;
+    border: 1px solid #355764;
+}
 
 /* HOME */
 .container-flex {
@@ -60,13 +72,10 @@ ul {
     margin-top: 30px;
     border-radius: 5px;
     border: 1px solid #FFFFFF;
-    min-width: 80%;
+    width: 80%;
     min-height: 350px;
-    color: #355764;
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 2.5em;
 }
+
 /*RODAPÉ*/
 #rodape {
     background-color: rgba(53, 87, 100, 0.8);
@@ -81,4 +90,16 @@ ul {
     text-transform: uppercase;
     padding-bottom: 20px;
     color: #9da1a1;
+}
+
+/* SOBRE */
+#img-sobre {
+    margin: 40px;
+    width: 40%;
+}
+.fonte h3, p {
+    margin: 20px;
+    width: 80%;
+    text-align: justify;
+    color: #355764;
 }
