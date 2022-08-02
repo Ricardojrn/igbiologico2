@@ -6,9 +6,9 @@
     font-family: Trebuchet MS, sans-serif;
     font-size: 1.1em;
 }
-body, html {
+body{
     background: #A5C9CA url(../imagens/planodefundo.png) repeat-y;
-    height: 100%;
+    height: 100vh;
 }
 #cabecalho {
     border-bottom: 2px solid #FFFFFF;
